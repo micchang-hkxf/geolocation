@@ -5,9 +5,8 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import * as VueGoogleMaps from 'vue2-google-maps';
 
 Vue.use(VueGoogleMaps, {
-    load: {
-        //key: 'AIzaSyCYZOvVQnoqRdh9MCiaDgYhqIc_GkhPYD0',
-        key: 'AIzaSyDLq4kcg-OiwxlaTPTe1dz4iDQY9AQV6kA',
+    load: {        
+        key:'',
         libraries: ['geometry']
     }
 });
